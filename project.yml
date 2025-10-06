@@ -1,0 +1,39 @@
+---
+settings:
+  name: Google Cloud Storage
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: ja-jp,us-en,de-de,es-es,fr-fr,it-it,pt-br,ko-kr,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: Google Cloud Storage ドキュメント
+    url: "/index.html"
+  - title: リリース ノート
+    url: "/whats-new.html"
+  - title: 始めましょう
+    entries:
+    - title: Google Cloud Storage バケットを表示する
+      url: "/task-viewing-gcp-storage.html"
+  - title: Google Cloud Storage バケットを管理する
+    entries:
+    - title: 新しいバケットを追加する
+      url: "/task-add-gcp-bucket.html"
+    - title: バケット設定を変更する
+      url: "/task-change-gcp-bucket-settings.html"
+    - title: Google Cloud Storage バケットでNetAppデータ サービスを使用する
+      url: "/task-gcp-enable-data-services.html"
+  - title: 知識とサポート
+    entries:
+    - title: サポートに登録する
+      url: "/task-support-registration.html"
+    - title: ヘルプを受ける
+      url: "/task-get-help.html"
+  - title: 法律上の表示
+    url: "/legal-notices.html"
+product-family:
+  name: Storage Management
+  repo: storage-management-family

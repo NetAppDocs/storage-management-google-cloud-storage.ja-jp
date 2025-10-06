@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
+summary: NetAppコンソールで Google Cloud Storage の新機能をご確認ください。 
+---
+= NetAppコンソールの Google Cloud Storage の新機能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetAppコンソールで Google Cloud Storage の新機能をご確認ください。
+
+
+
+== 2025年10月6日
+
+
+
+=== BlueXPはNetAppコンソールになりました
+
+NetAppコンソールは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetAppデータ サービスの集中管理を提供し、リアルタイムの分析情報、ワークフローの高速化、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。
+
+変更内容の詳細については、link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetAppコンソールのリリースノート"] 。
+
+
+
+== 10 2023年7月
+
+
+
+=== BlueXPから新しいバケットを追加し、既存のバケットを管理する機能
+
+BlueXP Canvas では、Google Cloud Storage バケットをかなり長い間表示できます。BlueXPから直接新しいバケットを追加したり、既存のバケットのプロパティを変更したりできるようになりました。 https://docs.netapp.com/us-en/storage-management-google-cloud-storage/task-add-gcp-bucket.html["新しい Google Cloud Storage バケットを追加する方法をご覧ください"] 。

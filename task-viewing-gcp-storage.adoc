@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: task-viewing-gcp-storage.html 
+keywords: google cloud storage buckets, google cloud storage, google cloud storage working environment, system 
+summary: Google Cloud にコンソール エージェントをインストールすると、 NetAppコンソールは、コンソール エージェントがインストールされている Google アカウントにある Google Cloud バケットに関する情報を自動的に検出できるようになります。この情報を表示できるように、Google Cloud Storage システムがNetAppコンソールに追加されました。 
+---
+= Google Cloud Storage バケットを表示する
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Google Cloud にコンソール エージェントをインストールすると、 NetAppコンソールは、コンソール エージェントがインストールされている Google アカウントにある Google Cloud Storage バケットに関する情報を自動的に検出できるようになります。この情報を表示できるように、Google Cloud Storage システムがコンソールに追加されました。
+
+Google Cloud Storage バケットに関する詳細情報（場所、アクセス ステータス、ストレージ クラス、合計容量と使用容量など）を確認できます。これらのバケットは、 NetAppバックアップおよびリカバリ、 NetAppクラウド階層化、またはNetAppコピーおよび同期操作の宛先として使用できます。
+
+.手順
+. https://docs.netapp.com/us-en/console-setup-admin/task-quick-start-connector-google.html["コンソールエージェントをインストールする"^]Google Cloud Storage バケットを表示する Google アカウントで。
+. NetAppコンソール メニューから、*ストレージ* を選択し、次に *管理* を選択します。
+
+
+しばらくすると、Google Cloud Storage システムが自動的に表示されます。
+
+image:screenshot-gcp-cloud-storage-we.png["Google Cloud Storage システムのスクリーンショット。"]
+
+. Google Cloud Storage でNetApp Console サービスを有効にする場合は、システムを選択し、右側のペインからアクションを選択します。
++
+link:task-gcp-enable-data-services.html["利用可能なNetAppコンソール サービスを確認し、Google Cloud Storage バケットでそれらを使用する方法を学びます"] 。
+
+. Google アカウントのバケットの詳細を表示するには、[*Enter System*] を選択するか、システムをダブルクリックします。
++
+デフォルトで表示される列に加えて、ページをスクロールしてバケットの追加プロパティ（ラベルの数や有効になっている暗号化の種類など）を表示できます。
+
+
+
+.次の手順
+コンソールからバケット設定を直接変更するには、image:button-horizontal-more.gif["3つの点のボタン"]バケツ用。link:task-change-gcp-bucket-settings.html["詳細はこちら"] 。
+
+*バケットを追加*をクリックすると、新しいバケットを追加できます。link:task-add-gcp-bucket.html["詳細はこちら"] 。

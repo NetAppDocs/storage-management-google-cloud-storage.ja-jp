@@ -1,0 +1,31 @@
+---
+indexpage:
+  title: Google Cloud Storage ドキュメント
+  summary: NetAppコンソールで Google Cloud Storage の使用を開始します。
+  keywords: google cloud storage, bluexp, system, netapp console
+  lead: NetAppコンソールで Google Cloud Storage の使用を開始します。
+  tiles:
+  - title: 始めましょう
+    links:
+    - title: Google Cloud Storage バケットを表示する
+      url: task-viewing-gcp-storage.html
+  - title: Google Cloud Storage バケットを管理する
+    links:
+    - title: バケットを追加する
+      url: task-add-gcp-bucket.html
+    - title: バケット設定を変更する
+      url: task-change-gcp-bucket-settings.html
+    - title: Google Cloud Storage バケットでNetAppデータ サービスを使用する
+      url: task-gcp-enable-data-services.html
+  - title: 詳細情報
+    links:
+    - title: NetAppコンソール外での管理に関する Google Cloud Storage ドキュメント
+      url: https://cloud.google.com/storage/docs/creating-buckets
+  - title: ブログとコミュニティ
+    links:
+    - title: NetAppコンソール
+      url: https://www.netapp.com/console
+    - title: NetAppデータサービス
+      url: https://www.netapp.com/data-services/
+    - title: NetAppコミュニティ
+      url: https://community.netapp.com/
