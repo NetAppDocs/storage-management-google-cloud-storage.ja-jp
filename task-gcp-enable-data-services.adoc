@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-gcp-enable-data-services.html 
 keywords: google buckets, google storage, google cloud storage working environment, google cloud storage buckets, system 
-summary: NetAppコンソールで Google Cloud Storage バケットを検出すると、バックアップ、階層化、データ同期にNetAppデータサービスを使用できます。 
+summary: NetApp Consoleで Google Cloud Storage バケットを検出すると、バックアップ、階層化、データ同期にNetAppデータサービスを使用できます。 
 ---
 = Google Cloud Storage バケットでNetAppデータ サービスを使用する
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: NetAppコンソールで Google Cloud Storage バケットを検出す�
 
 
 [role="lead"]
-NetAppコンソールで Google Cloud Storage バケットを検出すると、バックアップ、階層化、データ同期にNetAppデータサービスを使用できます。
+NetApp Consoleで Google Cloud Storage バケットを検出すると、バックアップ、階層化、データ同期にNetAppデータサービスを使用できます。
 
 * * NetApp Backup and Recovery* を使用して、オンプレミスのONTAPおよびCloud Volumes ONTAPシステムから Google Cloud オブジェクト ストレージにデータをバックアップします。
 +
@@ -23,7 +23,7 @@ NetAppコンソールで Google Cloud Storage バケットを検出すると、�
 +
 https://docs.netapp.com/us-en/data-services-backup-recovery/concept-ontap-backup-to-cloud.html["ONTAPデータを Google Cloud Storage にバックアップする方法の詳細"^] 。
 
-* * NetApp Cloud Tiering* を使用して、オンプレミスのONTAPクラスターから Google Cloud オブジェクト ストレージに非アクティブなデータを階層化します。
+* * NetApp Cloud Tiering* を使用して、オンプレミスのONTAPクラスタから Google Cloud オブジェクト ストレージに非アクティブなデータを階層化します。
 +
 開始するには、[システム] ページに移動し、オンプレミスのONTAPシステムを Google Cloud Storage システムにドラッグ アンド ドロップします。
 
@@ -32,7 +32,7 @@ https://docs.netapp.com/us-en/data-services-cloud-tiering/task-tiering-onprem-gc
 
 * * NetApp Copy and Sync* を使用して、Google Cloud Storage バケットとの間でデータを同期します。
 +
-開始するには、「システム」ページに移動し、ソース システムをターゲット システムにドラッグ アンド ドロップします。Google Cloud Storage システムはソースまたはターゲットのいずれかになります。
+開始するには、「システム」ページに移動し、ソース システムをターゲット システムにドラッグ アンド ドロップします。  Google Cloud Storage システムはソースまたはターゲットのいずれかになります。
 
 
 

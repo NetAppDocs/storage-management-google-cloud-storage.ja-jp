@@ -1,9 +1,9 @@
 ---
 indexpage:
   title: Google Cloud Storage ドキュメント
-  summary: NetAppコンソールで Google Cloud Storage の使用を開始します。
+  summary: NetApp Consoleで Google Cloud Storage の使用を開始します。
   keywords: google cloud storage, bluexp, system, netapp console
-  lead: NetAppコンソールで Google Cloud Storage の使用を開始します。
+  lead: NetApp Consoleで Google Cloud Storage の使用を開始します。
   tiles:
   - title: 始めましょう
     links:
@@ -19,13 +19,13 @@ indexpage:
       url: task-gcp-enable-data-services.html
   - title: 詳細情報
     links:
-    - title: NetAppコンソール外での管理に関する Google Cloud Storage ドキュメント
+    - title: NetApp Console外での管理に関する Google Cloud Storage ドキュメント
       url: https://cloud.google.com/storage/docs/creating-buckets
   - title: ブログとコミュニティ
     links:
-    - title: NetAppコンソール
+    - title: NetApp Console
       url: https://www.netapp.com/console
-    - title: NetAppデータサービス
+    - title: NetApp Data Services
       url: https://www.netapp.com/data-services/
     - title: NetAppコミュニティ
       url: https://community.netapp.com/

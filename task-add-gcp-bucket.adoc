@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-add-gcp-bucket.html 
 keywords: google cloud storage buckets, google cloud storage, add buckets 
-summary: 'Google Cloud Storage システムが [システム] ページで利用可能になると、 NetAppコンソールから直接バケットを追加できます。' 
+summary: 'Google Cloud Storage システムが [システム] ページで利用可能になると、 NetApp Consoleから直接バケットを追加できます。' 
 ---
 = Google Cloud Storage バケットを追加する
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'Google Cloud Storage システムが [システム] ページで利用
 
 
 [role="lead"]
-Google Cloud Storage システムが [システム] ページで利用可能になると、 NetAppコンソールから直接バケットを追加できます。
+Google Cloud Storage システムが [システム] ページで利用可能になると、 NetApp Consoleから直接バケットを追加できます。
 
 .手順
 . [システム] ページで、Google Cloud Storage システムをダブルクリックして Google Cloud Storage バケットの概要ページを表示し、[*バケットを追加*] をクリックします。
@@ -24,7 +24,7 @@ _バケットの追加_ ページが表示されます。
 . _プロジェクトの詳細_セクションに必要な情報を入力します。
 +
 ** *バケット名* - バケットに使用する名前を入力します。 https://cloud.google.com/storage/docs/buckets#naming["命名要件については、Google Cloud のドキュメントをご覧ください。"^] 。
-** *Google プロジェクト* - バケットの所有者となる Google プロジェクトを選択します。これは、コンソール エージェントがデプロイされたプライマリ プロジェクトにすることも、別のプロジェクトにすることもできます。ドロップダウン リストに追加のプロジェクトが表示されない場合は、 NetAppコンソール サービス アカウントが他のプロジェクトにまだ関連付けられていません。  Google Cloud コンソールに移動し、IAM サービスを開いて、プロジェクトを選択します。 NetAppコンソール ロールを持つサービス アカウントをそのプロジェクトに追加します。プロジェクトごとにこの手順を繰り返す必要があります。注: これはNetAppコンソール用に設定したサービスアカウントです。 https://docs.netapp.com/us-en/console-setup-admin/task-set-up-permissions-google.html#set-up-permissions-for-the-connector["このページに記載されている通り"^] 。
+** *Google プロジェクト* - バケットの所有者となる Google プロジェクトを選択します。これは、コンソール エージェントがデプロイされたプライマリ プロジェクトにすることも、別のプロジェクトにすることもできます。ドロップダウン リストに追加のプロジェクトが表示されない場合は、 NetApp Consoleサービス アカウントが他のプロジェクトにまだ関連付けられていません。  Google Cloud コンソールに移動し、IAM サービスを開いて、プロジェクトを選択します。 NetApp Consoleロールを持つサービス アカウントをそのプロジェクトに追加します。プロジェクトごとにこの手順を繰り返す必要があります。注: これはNetApp Console用に設定したサービスアカウントです。 https://docs.netapp.com/us-en/console-setup-admin/task-set-up-permissions-google.html#set-up-permissions-for-the-connector["このページに記載されている通り"^] 。
 ** *ラベル* - ラベルは、Google Cloud リソースのメタデータです。バケットを作成するときに、最大 10 個のラベル キー:値ペアを追加できます。https://cloud.google.com/compute/docs/labeling-resources["ラベルの詳細については、Google Cloud のドキュメントをご覧ください。"^] 。
 
 

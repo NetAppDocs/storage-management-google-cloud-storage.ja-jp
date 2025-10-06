@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="5a6d96b9a020e520981bf7fe4c7af203" category="doc">BlueXPから新しいバケットを追加し、既存のバケットを管理する機能</block>
+  <block id="2706c3785e1f78099c28d555600c918b" category="inline-link">新しい Google Cloud Storage バケットを追加する方法をご覧ください</block>
+  <block id="00079c5af8b652f708d4b2d3c217dce6" category="paragraph">BlueXP Canvas では、Google Cloud Storage バケットをかなり長い間表示できます。  BlueXPから直接新しいバケットを追加したり、既存のバケットのプロパティを変更したりできるようになりました。<block ref="493cc79f245c411ab616a87cbaf9a9f5" category="inline-link-rx"></block> 。</block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXPはNetApp Consoleになりました</block>
+  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">NetApp Consoleは、強化され再構築されたBlueXP基盤上に構築され、オンプレミスとクラウド環境全体にわたるエンタープライズ グレードのNetAppストレージとNetApp Data Servicesの集中管理を提供し、リアルタイムの分析情報、より高速なワークフロー、および高度なセキュリティとコンプライアンスを備えた簡素化された管理を実現します。</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">NetApp Consoleのリリースノート</block>
+  <block id="9fad6bb6d30ac060d7377371e39b12c0" category="paragraph">変更内容の詳細については、<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block> 。</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律上の表示</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法的通知から、著作権情報、商標、特許などを確認できます。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">著作権</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp、NetAppのロゴ、NetAppの商標一覧のページに掲載されているマークは、NetApp, Inc.の商標です。その他の会社名と製品名は、それを所有する各社の商標である場合があります。</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">特許</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">現在NetAppが所有する特許の一覧は以下のページから閲覧できます。</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">プライバシー ポリシー</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、 NetAppソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が提供されます。</block>
+  <block id="50dbf63cd0ab8144a287e5cd6a0f1de2" category="inline-link">NetApp Consoleに関するお知らせ</block>
+  <block id="c87093fc5ce0aab848deaeae14c761b9" category="paragraph"><block ref="c87093fc5ce0aab848deaeae14c761b9" category="inline-link-rx"></block></block>
+  <block id="b00dbab4a40e5f92b028b1318f490bfe" category="summary">Google Cloud Storage システムが [システム] ページで利用可能になると、 NetApp Consoleから直接バケットを追加できます。</block>
+  <block id="19f54385373bc28f865c148e37d5418a" category="doc">Google Cloud Storage バケットを追加する</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
+  <block id="287a29ef66672b675a81b422726252bc" category="list-text">[システム] ページで、Google Cloud Storage システムをダブルクリックして Google Cloud Storage バケットの概要ページを表示し、[*バケットを追加*] をクリックします。</block>
+  <block id="7905235e0b9d47c87993bfcf15c3dd50" category="paragraph">_バケットの追加_ ページが表示されます。</block>
+  <block id="6c2ed49d2a85251adbf8725c16c45ceb" category="list-text">_プロジェクトの詳細_セクションに必要な情報を入力します。</block>
+  <block id="194614c2947472789a89fac4e726468f" category="inline-link">命名要件については、Google Cloud のドキュメントをご覧ください。</block>
+  <block id="b2f55361a886d6f0b36b44efac73809c" category="list-text">*バケット名* - バケットに使用する名前を入力します。<block ref="da6b1c222d0c064c1a3f413b6b25cbe5" category="inline-link-rx"></block> 。</block>
+  <block id="380bfdc134190af310ad2f9812d7569f" category="inline-link">このページに記載されている通り</block>
+  <block id="10783e0686d7dbd7441b4301ff235c15" category="list-text">*Google プロジェクト* - バケットの所有者となる Google プロジェクトを選択します。これは、コンソール エージェントがデプロイされたプライマリ プロジェクトにすることも、別のプロジェクトにすることもできます。ドロップダウン リストに追加のプロジェクトが表示されない場合は、 NetApp Consoleサービス アカウントが他のプロジェクトにまだ関連付けられていません。  Google Cloud コンソールに移動し、IAM サービスを開いて、プロジェクトを選択します。 NetApp Consoleロールを持つサービス アカウントをそのプロジェクトに追加します。プロジェクトごとにこの手順を繰り返す必要があります。注: これはNetApp Console用に設定したサービスアカウントです。<block ref="2da5c878c49e0ecce833e4a86e81840d" category="inline-link-rx"></block> 。</block>
+  <block id="eedf77fc8235e2e5eb0da421ae8d0247" category="inline-link">ラベルの詳細については、Google Cloud のドキュメントをご覧ください。</block>
+  <block id="411b919f3c21616c0b2321f41ce011a4" category="list-text">*ラベル* - ラベルは、Google Cloud リソースのメタデータです。バケットを作成するときに、最大 10 個のラベル キー:値ペアを追加できます。<block ref="0e6126ee9764c5d28fc4a15def587b1a" category="inline-link-rx"></block> 。</block>
+  <block id="9ff937073a30d0158ea6edb334cda923" category="list-text">_Location_ セクションで、バケットが作成されるロケーション タイプとリージョン (複数可) を選択します。  3 つの異なるタイプの場所から選択できます。</block>
+  <block id="8af28f8050add88f47663e63eaac80fb" category="cell">「場所の種類」を選択した場合...</block>
+  <block id="48608c1c17bfe6c3f06fc0b6acd8f2b1" category="cell">次に選択します...</block>
+  <block id="f447ac856e7e72435904956e3b15f433" category="cell">リージョン</block>
+  <block id="050051186b7e5077272a4128900bbb87" category="cell">「利用可能なリージョン」フィールドからの単一のリージョン。</block>
+  <block id="39596571d4cbd3605dda58ae43af1ad6" category="cell">デュアルリージョン</block>
+  <block id="62510367db3ad2deb1fb7fdf1bc760bd" category="paragraph">「利用可能な場所」フィールドから地理的な場所 (単一の大陸) を選択し、「利用可能な地域」フィールドで 2 つの地域を選択します。</block>
+  <block id="488320291e74e62a9a9f44ac6ad381ac" category="paragraph">15 分以内に新しく書き込まれたすべてのオブジェクトの地理的冗長性を保証する場合は、「ターボ レプリケーション」を有効にできます。</block>
+  <block id="5c138f4c6c585c383a0333e3473c0151" category="cell">マルチリージョン</block>
+  <block id="d87d892388ed01d62c842ab0d4b20914" category="cell">「利用可能なマルチリージョン」フィールドからの地理的マルチリージョン。</block>
+  <block id="5d2b6b20c6fc689def52e67bb5d76881" category="inline-link">バケットの場所の詳細については、Google Cloud のドキュメントをご覧ください。</block>
+  <block id="4d7a3d667510ec48f352d3a342435207" category="paragraph">すべての Cloud Storage データは、アップロードされるとすぐに、少なくとも 1 つの地理的な場所内の少なくとも 2 つのゾーンにわたって冗長化されることに注意してください。<block ref="4005711632a12fe6fcf58a90e24df63b" category="inline-link-rx"></block> 。</block>
+  <block id="adec7d77889fd386d1dba439d7880387" category="list-text">_ストレージ クラス_ セクションで、バケット内のオブジェクトに使用するストレージ クラスを選択します。  4 つのストレージ クラスから選択するか、_Autoclass_ を選択して、必要に応じて Google がクラスを調整することもできます。</block>
+  <block id="0700b2a48cd9df13092d646eb73f8e72" category="list-text">*標準* - 頻繁にアクセスされるデータ (「ホット」データ) や、短期間のみ保存されるデータに最適です。</block>
+  <block id="47afed63da1eda0747061acedfa13bc3" category="list-text">*Nearline* - アクセス頻度の低いデータを保存するための低コストで耐久性の高いストレージ サービス。</block>
+  <block id="514749164593d95d5cb0efb3cef1ac3e" category="list-text">*Coldline* - あまり頻繁にアクセスされないデータを保存するための、非常に低コストで耐久性の高いストレージ サービスです。</block>
+  <block id="7e192c3927446c770a9a197b833db414" category="list-text">*アーカイブ* - データのアーカイブ、オンライン バックアップ、災害復旧のための、最も低コストで耐久性に優れたストレージ サービスです。</block>
+  <block id="001efc5d061c01c6f797e63f75c59540" category="list-text">*Autoclass* - 各オブジェクトのアクセス パターンに基づいて、バケット内のオブジェクトを適切なストレージ クラスに自動的に移行します。</block>
+  <block id="1ffab1cad4161c47ed0ef1b8b664bccd" category="inline-link">ストレージクラスの詳細については、Google Cloud のドキュメントをご覧ください。</block>
+  <block id="c16686547431ba96defb7b0f07990f17" category="paragraph">コストと取得料金はストレージ クラスごとに異なります。<block ref="a9049d892eab54a581496747db354f33" category="inline-link-rx"></block> 。</block>
+  <block id="b8f397da70b175c5a66f1bef0e198375" category="list-text">[_Protection_] セクションで、バケット内のオブジェクトを保護するためにデータ保護ツールを使用するか、データへのアクセスを保護するためにデータ暗号化構成を使用するかを選択します。</block>
+  <block id="ceecb6d1abb638dbc2b05ef4dfd195b0" category="paragraph">*データ保護ツール*</block>
+  <block id="370037bbc04e6fe7ab6482e9f6b614b4" category="list-text">*なし* - デフォルトでは、バケットで保護ツールは有効になっていません。</block>
+  <block id="6a329eee8ecb754ee4d24917156a03df" category="list-text">*オブジェクトのバージョン管理* - オブジェクトのバージョン管理は、オブジェクトの複数のバージョンを同じバケット内に保持する手段です。バケットは、ライブ オブジェクト バージョンを更新、置換、または削除するたびに、非最新のオブジェクト バージョンを保持し、オブジェクトの保護されたバージョンを継続的に維持します。  「オブジェクトのバージョン管理」を選択すると、次の 2 つのオプションを指定できます。</block>
+  <block id="4664f5efbac0c00ddc9a84ac4ee37b4f" category="list-text">*オブジェクトあたりの最大バージョン数* - 作成されるオブジェクトあたりの非最新バージョンの数を入力します。</block>
+  <block id="4092e2c83312d8c50d7db8ca190293b1" category="list-text">*非最新バージョンの有効期限* - 古い非最新オブジェクトが削除されるまでの日数を入力します。</block>
+  <block id="d85646dfcad0e7028cc1167688339ca6" category="list-text">*保持ポリシー* - 保持ポリシーにより、バケット内の現在のオブジェクトと将来のオブジェクトはすべて、保持ポリシーで定義した期間に達するまで削除または置換できなくなります。  「保持ポリシー」を選択すると、次の 2 つのオプションを指定できます。</block>
+  <block id="0dd86d86f87c4d7e5bc9b3f9ec499c69" category="list-text">*オブジェクトの保持期間* - オブジェクトを保持する秒数、日数、月数、または年数を入力します。</block>
+  <block id="e98ba97e374f06c4a2176b123d2b6a51" category="list-text">*時間枠* - 時間の単位を秒、日、月、年のいずれかから選択します。</block>
+  <block id="b00f87e888861bba96aa7b0d5a5715a4" category="inline-link">オブジェクトのバージョン管理に関する詳細情報</block>
+  <block id="ff0c2266ee933292fe4564008ae30a52" category="inline-link">保持ポリシーに関する詳細情報</block>
+  <block id="0b5616579f6f22614eee8d14dddb8431" category="paragraph">オブジェクトのバージョン管理ツールと保持ポリシー保護ツールを同時に有効にすることはできません。  Google Cloudのドキュメントをご覧ください<block ref="6c936e872cf9f9db10ad17b0ad1f1def" category="inline-link-rx"></block>、 そして<block ref="95ae46b399b1a6e153ff9c25d6560bbd" category="inline-link-rx"></block>。</block>
+  <block id="969337c37786da417489bc2eb0b57a39" category="paragraph">*データ暗号化ツール*</block>
+  <block id="bea9ae28243279b4d72ca9ec76d4819d" category="list-text">*Google 管理の暗号化キー* - デフォルトでは、Google 管理の暗号化キーがデータの暗号化に使用されます。</block>
+  <block id="6519ac9fad5ea16668ccd56b326ee11c" category="list-text">*顧客管理の暗号化キー* - デフォルトの Google 管理の暗号化キーの代わりに、独自の顧客管理キーを使用してデータを暗号化できます。独自の顧客管理キーを使用する予定の場合は、このページでキーを選択できるように、事前にキーを作成しておく必要があります。</block>
+  <block id="4857078b6c32702e67177b54fbfbcc6b" category="paragraph">キーはバケットと同じプロジェクトに配置することも、別のプロジェクトを選択することもできます。</block>
+  <block id="7b2e299027f9ee1fde4dc8e0187b6d09" category="inline-link">Google が管理する暗号化キーに関する詳細情報</block>
+  <block id="9a827fef64d338d7c253c4d9091f5a17" category="inline-link">顧客管理暗号化キーの詳細情報</block>
+  <block id="132d50bb589ed611fc56705df8d56633" category="paragraph">Google Cloudのドキュメントをご覧ください<block ref="39187e739414effbe981ed478223343d" category="inline-link-rx"></block>、 そして<block ref="895220e894f0ac66488c9a432691b1a2" category="inline-link-rx"></block>。</block>
+  <block id="a213be5d3f4ac9e5115a58f090c817fa" category="list-text">*追加*をクリックするとバケットが作成されます。</block>
+  <block id="b74d23cf93d017ed91b8cfcafc4134a4" category="summary">Google Cloud Storage システムが [システム] ページで使用できる場合は、 NetApp Consoleからバケットの一部のプロパティを直接変更できます。</block>
+  <block id="0d3b4d3bc62973f2ef853118ee87b964" category="doc">Google Cloud Storage バケットの設定を変更する</block>
+  <block id="9547288cf6d11c5ef51962ab79d5a30e" category="paragraph">バケット名、Google プロジェクト、保護設定は変更できないことに注意してください。</block>
+  <block id="c1e90160a62fa1921449efb18231f40d" category="paragraph">変更できるバケットのプロパティは次のとおりです。</block>
+  <block id="0aafb11c2a9f47a75e18667cde3cece4" category="list-text">バケット内の将来のすべてのオブジェクトのストレージ クラス。</block>
+  <block id="72bd4cff8828b9b49bc10220337d407f" category="list-text">バケット内のオブジェクトにラベルを追加、編集、削除することができます。</block>
+  <block id="dd7724034a0925357748c9ddcf14157b" category="list-text">ターボ レプリケーション モード - バケットがデュアルリージョンの場所にある場合のみ。</block>
+  <block id="8844ea245d7c08ab2233754002d80b15" category="inline-image-macro">3つの点のボタン</block>
+  <block id="9012b6afbfadbefb81dcfb8d275f58b2" category="paragraph">これらのバケット設定は、NetApp Consoleから直接変更することができます。<block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block>次に、バケットの*バケットの詳細を編集*します。</block>
+  <block id="70635430b5bafdf9d4311deb47f5ed05" category="inline-image-macro">バケットのプロパティを編集するために「バケットの詳細の編集」ボタンを選択する方法を示したスクリーンショット。</block>
+  <block id="aaa709f9b07e2de4b60aa905da9d6adb" category="paragraph"><block ref="aaa709f9b07e2de4b60aa905da9d6adb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="916e3861b96153c8e1d8fc7e7e7fa50d" category="section-title">ストレージクラスを変更する</block>
+  <block id="5900950ec7ca39afee0db6a7937f3d93" category="paragraph">ストレージ クラス セクションでは、特定の変更のみを行うことができます。</block>
+  <block id="9d0ff57fc0479c3dc721bbe8eb604106" category="list-text">バケットの作成時に _Autoclass_ を選択した場合は、Autoclass を無効にして別のストレージ クラスを選択できます。</block>
+  <block id="0fff26e35bfce134ffa24b2a89404acd" category="list-text">バケットの作成時に他のストレージ クラスを選択した場合は、_Autoclass_ を除く他のストレージ クラスに変更できます。</block>
+  <block id="b31bca7910ed7b9bac2229bc615803c4" category="paragraph">別のクラスにあったオブジェクトはそのクラスに残りますが、新しいオブジェクトは新しいクラス設定を使用します。</block>
+  <block id="b2dc0bd2780cad5457c930c2480da552" category="section-title">バケット内のオブジェクトのラベルを追加または変更する</block>
+  <block id="b5f1adffd55f74c60105b86fe9d99627" category="paragraph">ラベルは、リソースをグループ化してアプリケーション、環境、リージョン、クラウド プロバイダーなどを識別するために使用できるメタデータです。ラベルはキーと値で構成されます。バケットにラベルを追加して、オブジェクトがバケットに追加されたときにそのラベルがオブジェクトに適用されるようにすることができます。ラベルやラベル値を変更したり削除したりすることもできます。</block>
+  <block id="d60c0fbf7391096036689ddd23626717" category="paragraph">ラベルを追加または編集したら、[適用] をクリックして変更を保存します。さらにラベルを追加する場合は、「*新しいラベルを追加*」をクリックします。バケットごとに最大 10 個のラベルを追加できます。</block>
+  <block id="949467ad042814d4c76b24fca2f4ac9b" category="section-title">デュアルリージョンロケーションでターボレプリケーションを有効にするかどうかを変更する</block>
+  <block id="ae7421788bf0ad960e56c7c6a19bd130" category="paragraph">バケットがデュアルリージョンの場所にある場合は、ターボ レプリケーション モードを有効にするか無効にするかを有効または無効にできます。  「ターボ レプリケーション」を使用すると、15 分以内に新しく書き込まれたすべてのオブジェクトの地理的な冗長性を保証できます。</block>
+  <block id="1abde1bd568332a66f7560bab9c6abf7" category="paragraph">バケットの作成後は、その他の場所の詳細は変更できません。</block>
+  <block id="a0b50004b97c7a4f46385276d68e34a7" category="summary">NetApp Consoleで Google Cloud Storage バケットを検出すると、バックアップ、階層化、データ同期にNetAppデータサービスを使用できます。</block>
+  <block id="fd34ce45befcc2d966ed75e41ee9ec98" category="doc">Google Cloud Storage バケットでNetAppデータ サービスを使用する</block>
+  <block id="6eec2824293226fbb73f35f2f970313a" category="list-text">* NetApp Backup and Recovery* を使用して、オンプレミスのONTAPおよびCloud Volumes ONTAPシステムから Google Cloud オブジェクト ストレージにデータをバックアップします。</block>
+  <block id="b664cd749debb1660d94de21917e9bcf" category="paragraph">開始するには、[システム] ページに移動し、オンプレミスのONTAPまたはCloud Volumes ONTAPシステムを Google Cloud Storage システムにドラッグ アンド ドロップします。</block>
+  <block id="c08915205c4a9681660dba7a6f50b538" category="inline-link">ONTAPデータを Google Cloud Storage にバックアップする方法の詳細</block>
+  <block id="9533c54f00ea1d4d66844f3405b6c4ce" category="paragraph"><block ref="5d3ceb9b500f2ef5287b2cf7f8b4b49b" category="inline-link-rx"></block> 。</block>
+  <block id="ddabeb67c8c21fe25d7edc559236bd81" category="list-text">* NetApp Cloud Tiering* を使用して、オンプレミスのONTAPクラスタから Google Cloud オブジェクト ストレージに非アクティブなデータを階層化します。</block>
+  <block id="6457c6499bcca5ff6b6101b3924b3ccf" category="paragraph">開始するには、[システム] ページに移動し、オンプレミスのONTAPシステムを Google Cloud Storage システムにドラッグ アンド ドロップします。</block>
+  <block id="5a40e1765360a8aab7fbfc4293b302ed" category="inline-link">ONTAPデータを Google Cloud Storage に階層化する方法の詳細</block>
+  <block id="183dff5fb1ffd100c58928070e663e23" category="paragraph"><block ref="6ca93414812da4fe368837198fd5604b" category="inline-link-rx"></block> 。</block>
+  <block id="dc07e5f0fdc4b5b5e0c100b3eb6868ed" category="list-text">* NetApp Copy and Sync* を使用して、Google Cloud Storage バケットとの間でデータを同期します。</block>
+  <block id="fc6687e5fc363c86ac8b9915c21c9fe7" category="paragraph">開始するには、「システム」ページに移動し、ソース システムをターゲット システムにドラッグ アンド ドロップします。  Google Cloud Storage システムはソースまたはターゲットのいずれかになります。</block>
+  <block id="82881e5f80de8e3590c1cf4dac16c6e8" category="paragraph">Google Cloud Storage システムを選択し、[サービス] パネルから [*コピーと同期*] をクリックして、Cloud Storage バケットとの間でデータを同期することもできます。</block>
+  <block id="7424858b35d2a117bda2b2aad954a43a" category="inline-link">NetApp Copy and Syncサービスの詳細</block>
+  <block id="de55534e3d256b506c871b32b3a04544" category="paragraph"><block ref="2780643f58a564704910545a96ecd829" category="inline-link-rx"></block> 。</block>
+  <block id="e48486c33f71dc8e173adb6c6fc66485" category="summary">NetApp は、さまざまな方法でNetApp Consoleのサポートを提供します。ナレッジベース (KB) 記事やコミュニティ フォーラムなど、広範な無料のセルフサポート オプションが 24 時間 365 日ご利用いただけます。サポート登録には、Webチケットによるリモートテクニカルサポートも含まれます。</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを受ける</block>
+  <block id="2feeca48692986e9cc471ec61f847fca" category="paragraph">NetApp は、 NetApp Consoleとそのクラウド サービスをさまざまな方法でサポートします。ナレッジ ベース (KB) 記事やコミュニティ フォーラムなど、豊富な無料のセルフ サポート オプションが 24 時間 365 日ご利用いただけます。サポート登録には、Webチケットによるリモートテクニカルサポートも含まれます。</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">クラウドプロバイダーのファイルサービスのサポートを受ける</block>
+  <block id="317cbd2c4fdbfd06a6c66bcd3f57d7ad" category="paragraph">クラウド プロバイダーのファイル サービス、そのインフラストラクチャ、またはサービスを使用するソリューションに関連するテクニカル サポートについては、その製品のドキュメントを参照してください。</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSx for ONTAP</block>
+  <block id="359d8b16e442ffaa72e03c95fcd60448" category="list-text"><block ref="359d8b16e442ffaa72e03c95fcd60448" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="153836c062a78213f2aa165322254aa4" category="list-text"><block ref="153836c062a78213f2aa165322254aa4" category="inline-link-macro-rx"></block></block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="0d592360c983f234b130127efee38805" category="list-text"><block ref="0d592360c983f234b130127efee38805" category="inline-link-macro-rx"></block></block>
+  <block id="68e6fe8cde496154d24fd032b4262070" category="paragraph">NetAppとそのストレージ ソリューションおよびデータ サービスに固有のテクニカル サポートを受けるには、以下に説明するサポート オプションを使用してください。</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">セルフサポートオプションを使用する</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">以下のオプションは、24 時間 365 日無料でご利用いただけます。</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">ドキュメント</block>
+  <block id="5bb94d173380c00577f5e04b6f26bb94" category="paragraph">現在表示しているNetApp Consoleのドキュメント。</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">ナレッジベース</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="0e20091afcea2d83d0033a933ba85092" category="paragraph">NetAppナレッジベースを検索して、問題のトラブルシューティングに役立つ記事を見つけます。</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">コミュニティ</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="777d75a90b107e4f18469f82c4f81fe2" category="paragraph">NetApp Consoleコミュニティに参加して、進行中のディスカッションをフォローしたり、新しいディスカッションを作成したりできます。</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">NetAppサポートでケースを作成する</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">上記のセルフ サポート オプションに加えて、サポートを有効にした後は、 NetAppサポート スペシャリストと協力して問題を解決することもできます。</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">始める前に</block>
+  <block id="c406bf0ac8ac87bc5bb7132a7351b2ae" category="inline-link">コンソールログインに関連付けられた資格情報を管理する方法を学びます</block>
+  <block id="377118f28487e70bd456993144b72fc7" category="list-text">*ケースの作成*機能を使用するには、まずNetAppサポート サイトの資格情報をコンソール ログインに関連付ける必要があります。<block ref="68c4321a756e3ffe955b62cff6fea46d" category="inline-link-rx"></block> 。</block>
+  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">シリアル番号を持つONTAPシステムのケースを開く場合は、NSS アカウントがそのシステムのシリアル番号に関連付けられている必要があります。</block>
+  <block id="0ab80a63088581d58dcf067051f4c894" category="list-text">NetApp Consoleで、[ヘルプ] &gt; [サポート] を選択します。</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">*リソース*ページで、テクニカル サポートの下にある利用可能なオプションのいずれかを選択します。</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">電話で誰かと話したい場合は、「電話する」を選択してください。電話をかけることができる電話番号をリストした netapp.com のページに移動します。</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">NetAppサポート スペシャリストとのチケットを開くには、[ケースを作成] を選択します。</block>
+  <block id="a1123cd59d7bd876c080c33906ae65ce" category="list-text">*サービス*: 問題が関連付けられているサービスを選択します。たとえば、* NetApp Console* は、コンソール内のワークフローまたは機能に関するテクニカル サポートの問題に固有の場合です。</block>
+  <block id="987df7518e2afb50a860647c832afd13" category="list-text">*システム*: ストレージに該当する場合は、* Cloud Volumes ONTAP* または *On-Prem* を選択し、関連する作業環境を選択します。</block>
+  <block id="8f8e8a86e5f52b6186a37bdf266c4320" category="paragraph">システムのリストは、コンソール組織と、上部のバナーで選択したコンソール エージェントの範囲内にあります。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*ケースの優先度*: ケースの優先度 (低、中、高、重大) を選択します。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">これらの優先順位の詳細を確認するには、フィールド名の横にある情報アイコンの上にマウスを置きます。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*問題の説明*: 該当するエラー メッセージや実行したトラブルシューティング手順など、問題の詳細な説明を入力します。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*追加のメールアドレス*:この問題を他の人に知らせたい場合は、追加のメールアドレスを入力してください。</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*添付ファイル (オプション)*: 一度に 1 つずつ、最大 5 つの添付ファイルをアップロードします。</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">添付ファイルはファイルごとに 25 MB までに制限されます。サポートされているファイル拡張子は、txt、log、pdf、jpg/jpeg、rtf、doc/docx、xls/xlsx、csv です。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">NetAppサポートでケースを作成できる「ケースの作成」フォームのスクリーンショット。</block>
+  <block id="77c89527ec8a9f89b24c5579d19b3b4b" category="paragraph"><block ref="77c89527ec8a9f89b24c5579d19b3b4b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">終了後の操作</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">サポート ケース番号を示すポップアップが表示されます。NetAppサポート スペシャリストがお客様のケースを確認し、すぐにご連絡いたします。</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">サポート ケースの履歴については、*設定 &gt; タイムライン* を選択し、「サポート ケースの作成」というアクションを探します。右端のボタンを使用すると、アクションを展開して詳細を表示できます。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">ケースを作成しようとすると、次のエラー メッセージが表示される場合があります。</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">「選択したサービスに対してケースを作成する権限がありません」</block>
+  <block id="178fdaf97b1d1577437f11ee9d5e5229" category="paragraph">このエラーは、NSS アカウントとそれに関連付けられているレコード会社が、NetApp Consoleアカウントのシリアル番号のレコード会社と同じではないことを意味している可能性があります (つまり、960xxxx) または作業環境のシリアル番号。次のいずれかのオプションを使用してサポートを求めることができます。</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">非技術的なケースを提出する<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="e1100b46295d42ed50ba7a4630710164" category="section-title">サポートケースを管理する</block>
+  <block id="316508a3483178100806a9d44b49aba2" category="paragraph">アクティブなサポート ケースと解決済みのサポート ケースをコンソールから直接表示および管理できます。NSS アカウントおよび会社に関連付けられたケースを管理できます。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">次の点に注意してください。</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">ページ上部のケース管理ダッシュボードには、次の 2 つのビューがあります。</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">左側のビューには、指定したユーザー NSS アカウントによって過去 3 か月間に開かれたケースの合計が表示されます。</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">右側のビューには、ユーザーの NSS アカウントに基づいて、会社レベルで過去 3 か月間に開かれたケースの合計が表示されます。</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">表の結果には、選択したビューに関連するケースが反映されます。</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">関心のある列を追加または削除したり、優先度やステータスなどの列の内容をフィルタリングしたりできます。その他の列は並べ替え機能のみを提供します。</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">詳細については、以下の手順をご覧ください。</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">ケースごとに、ケースメモを更新したり、まだ「クローズ」または「クローズ保留中」ステータスになっていないケースをクローズしたりする機能を提供します。</block>
+  <block id="9163e8bca6fd93c080d35ab49e3efdfa" category="list-text">NetApp Consoleで、[ヘルプ] &gt; [サポート] を選択します。</block>
+  <block id="2019fd19051c3ef493dbbb9ca65bab87" category="list-text">*ケース管理*を選択し、プロンプトが表示されたら、NSS アカウントをコンソールに追加します。</block>
+  <block id="75e54e3a6fdbf43ed890669e079d7594" category="paragraph">*ケース管理* ページには、コンソール ユーザー アカウントに関連付けられている NSS アカウントに関連するオープン ケースが表示されます。これは、*NSS 管理* ページの上部に表示される NSS アカウントと同じです。</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">必要に応じて、テーブルに表示される情報を変更します。</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">*組織のケース*の下で*表示*を選択すると、会社に関連付けられているすべてのケースが表示されます。</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">正確な日付範囲を選択するか、別の期間を選択して日付範囲を変更します。</block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">列の内容をフィルタリングします。</block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">表に表示されるプラスアイコン</block>
+  <block id="8ac6be88c1aa79062825a147fb263b0e" category="list-text">表に表示される列を変更するには、<block ref="500a336e7ba1c54bcffba4e27bda4eb6" category="inline-image-macro-rx" type="image"></block>次に、表示する列を選択します。</block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">表の最後の列に表示される3つの点のアイコン</block>
+  <block id="049b7b9fab1242f5e715952973c9474d" category="list-text">既存のケースを管理するには、<block ref="7381d9baeaf62eb099ce84f1a21ed5ca" category="inline-image-macro-rx" type="image"></block>利用可能なオプションのいずれかを選択します。</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*ケースを表示*: 特定のケースに関する詳細をすべて表示します。</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*ケースノートを更新*: 問題に関する追加の詳細を入力するか、*ファイルのアップロード*を選択して最大 5 つのファイルを添付します。</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*ケースを閉じる*: ケースを閉じる理由の詳細を入力し、[*ケースを閉じる*] を選択します。</block>
+  <block id="6269943bbab503c57445a47b04897eaa" category="summary">NetAppテクニカル サポートでサポート ケースを開く前に、 NetAppサポート サイト アカウントをNetApp Consoleに追加し、サポートに登録する必要があります。</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">サポートに登録する</block>
+  <block id="776abbf4d80cbef17bd3c86ff37b2257" category="paragraph">NetApp Consoleとそのストレージ ソリューションおよびデータ サービスに固有のテクニカル サポートを受けるには、サポート登録が必要です。Cloud Volumes ONTAPシステムの主要なワークフローを有効にするには、サポート登録も必要です。</block>
+  <block id="ba4e23e03f4354a0f1ef2781272c8477" category="paragraph">サポートに登録しても、クラウド プロバイダー ファイル サービスに対するNetAppサポートは有効になりません。クラウド プロバイダーのファイル サービス、そのインフラストラクチャ、またはサービスを使用するソリューションに関連するテクニカル サポートについては、その製品のドキュメントの「ヘルプの取得」を参照してください。</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">サポート登録の概要</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">サポート資格を有効にするには、次の 2 つの登録形式があります。</block>
+  <block id="869a868c87f6fb61410cfd773b4f1bab" category="list-text">NetApp Consoleアカウントのシリアル番号 (コンソールの [サポート リソース] ページにある 20 桁の 960xxxxxxxxx シリアル番号) を登録します。</block>
+  <block id="be0b51de4268d87101344aa0368b4403" category="paragraph">これは、コンソール内のすべてのサービスに対する単一のサポート サブスクリプション ID として機能します。各コンソール アカウントを登録する必要があります。</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">クラウド プロバイダーのマーケットプレイスで、サブスクリプションに関連付けられたCloud Volumes ONTAPシリアル番号を登録します (これらは 20 桁の 909201xxxxxxxx シリアル番号です)。</block>
+  <block id="3cf9fb70d6921dd90583621f028a395f" category="paragraph">これらのシリアル番号は一般に _PAYGO シリアル番号_ と呼ばれ、 Cloud Volumes ONTAP の導入時にNetApp Consoleによって生成されます。</block>
+  <block id="bf516b6498e37e816d29ae43ae132f74" category="paragraph">両方のタイプのシリアル番号を登録すると、サポート チケットの開設やケースの自動生成などの機能が有効になります。登録は、以下の説明に従ってNetAppサポート サイト (NSS) アカウントをコンソールに追加することで完了します。</block>
+  <block id="ba5983207e417797fefd5b9374ab4a97" category="section-title">NetAppサポートのためにNetApp Consoleを登録する</block>
+  <block id="dcb7105ba6e3d9411b05e726848feb80" category="paragraph">サポートに登録し、サポート資格を有効にするには、 NetApp Consoleアカウントの 1 人のユーザーがNetAppサポート サイト アカウントをコンソール ログインに関連付ける必要があります。NetAppサポートに登録する方法は、 NetAppサポート サイト (NSS) アカウントをすでにお持ちかどうかによって異なります。</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSSアカウントをお持ちの既存顧客</block>
+  <block id="ed5bddb699a442b85bc1bb8e1516fe57" category="paragraph">NSS アカウントをお持ちのNetApp のお客様の場合は、コンソールからサポートに登録するだけです。</block>
+  <block id="76bc427c3d9c4b81dc353078b942f991" category="list-text">*管理* &gt; *資格情報*を選択します。</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">*ユーザー資格情報*を選択します。</block>
+  <block id="e9451600769b4bf4b20ca941ba9e6d19" category="list-text">*NSS 資格情報の追加* を選択し、 NetAppサポート サイト (NSS) の認証プロンプトに従います。</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">登録プロセスが成功したことを確認するには、[ヘルプ] アイコンを選択し、[サポート] を選択します。</block>
+  <block id="1d4ea9fd10f6cfcd6f6fe1f861d354a4" category="paragraph">*リソース* ページには、コンソール アカウントがサポートに登録されていることが表示されます。</block>
+  <block id="afe8240ca62f4b72006980ff64d371b8" category="paragraph">他のコンソール ユーザーは、ログインにNetAppサポート サイト アカウントを関連づけていない場合、同じサポート登録ステータスを表示しないことに注意してください。ただし、これはあなたのアカウントがサポートに登録されていないことを意味するものではありません。組織内の 1 人のユーザーがこれらの手順を実行していれば、アカウントは登録済みになります。</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">既存の顧客だがNSSアカウントがない</block>
+  <block id="42eaca1e1c2d9e1f04e932eeaa6d129d" category="paragraph">既存のNetApp顧客であり、既存のライセンスとシリアル番号を持っているものの、NSS アカウントを持っていない場合は、NSS アカウントを作成し、それをコンソール ログインに関連付ける必要があります。</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetAppサポートサイト ユーザー登録フォーム</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">NetAppサポートサイトのアカウントを作成するには、<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">適切なユーザー レベル (通常は * NetApp顧客/エンド ユーザー*) を選択してください。</block>
+  <block id="bd33c4539c7d6985f6edafd4a4f2ba1d" category="list-text">上記で使用したコンソール アカウントのシリアル番号 (960xxxx) を必ずシリアル番号フィールドにコピーしてください。これにより、アカウント処理が高速化されます。</block>
+  <block id="9b1f48f88cd439b7a50fe3e76eb8a853" category="list-text">以下の手順を実行して、新しいNSSアカウントをコンソールログインに関連付けます。<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> 。</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetAppの新着情報</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">NetAppを初めて使用し、NSS アカウントをお持ちでない場合は、以下の手順に従ってください。</block>
+  <block id="e7e9f49f4584c68b9d97c578e73b7583" category="list-text">コンソールの右上にあるヘルプ アイコンを選択し、*サポート* を選択します。</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">サポート登録ページからアカウント ID シリアル番号を見つけます。</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「サポート」が最初のオプションとしてリストされている「ヘルプ」メニューのスクリーンショット</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetAppのサポート登録サイト</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">移動先<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block>*私は登録済みのNetApp顧客ではありません* を選択します。</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">必須フィールド（赤いアスタリスクが付いているフィールド）に入力します。</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">*製品ライン* フィールドで、*Cloud Manager* を選択し、該当する請求プロバイダーを選択します。</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">上記の手順 2 からアカウントのシリアル番号をコピーし、セキュリティ チェックを完了して、NetApp のグローバル データ プライバシー ポリシーを読んだことを確認します。</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">この安全な取引を完了するために、指定されたメールボックスに電子メールが直ちに送信されます。検証メールが数分以内に届かない場合は、必ずスパム フォルダーを確認してください。</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">メール内からアクションを確認します。</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">確認すると、リクエストがNetAppに送信され、 NetAppサポート サイトのアカウントを作成することが推奨されます。</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">上記で使用したアカウントのシリアル番号 (960xxxx) を必ずシリアル番号フィールドにコピーしてください。これにより処理速度が向上します。</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">このプロセス中に、 NetAppから連絡が来るはずです。これは、新規ユーザー向けの 1 回限りのオンボーディング演習です。</block>
+  <block id="629757336278be576456cf315303b178" category="paragraph">NetAppサポートサイトのアカウントを取得したら、以下の手順を実行して、アカウントをコンソールログインに関連付けます。<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> 。</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Cloud Volumes ONTAPサポートに NSS 認証情報を関連付ける</block>
+  <block id="f22d1a855e255746a6b925a3b22f7838" category="paragraph">Cloud Volumes ONTAPの次の主要なワークフローを有効にするには、 NetAppサポート サイトの認証情報をコンソール アカウントに関連付ける必要があります。</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">従量課金制のCloud Volumes ONTAPシステムをサポート対象として登録する</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">システムのサポートを有効にし、 NetAppテクニカル サポート リソースにアクセスするには、NSS アカウントを提供する必要があります。</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">BYOL（個人ライセンス使用）時にCloud Volumes ONTAP を導入する</block>
+  <block id="f3cd224f9506684fa3b5e2b89b2a566c" category="paragraph">コンソールがライセンス キーをアップロードし、購入した期間のサブスクリプションを有効にするには、NSS アカウントを提供する必要があります。これには、期間更新の自動更新が含まれます。</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAPソフトウェアを最新リリースにアップグレードする</block>
+  <block id="daf104544b5203a46e1580e1b8583f1f" category="paragraph">NSS 資格情報をNetApp Consoleアカウントに関連付けることは、コンソール ユーザー ログインに関連付けられている NSS アカウントとは異なります。</block>
+  <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">これらの NSS 資格情報は、特定のコンソール アカウント ID に関連付けられています。コンソール組織に属するユーザーは、*サポート &gt; NSS 管理* からこれらの資格情報にアクセスできます。</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">顧客レベルのアカウントをお持ちの場合は、1 つ以上の NSS アカウントを追加できます。</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナー アカウントまたは再販業者アカウントをお持ちの場合は、1 つ以上の NSS アカウントを追加できますが、顧客レベルのアカウントと一緒に追加することはできません。</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">*NSS管理 &gt; NSSアカウントの追加*を選択します。</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">プロンプトが表示されたら、[続行] を選択して、Microsoft ログイン ページにリダイレクトします。</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp は、サポートとライセンスに固有の認証サービスの ID プロバイダーとして Microsoft Entra ID を使用します。</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">ログイン ページで、 NetAppサポート サイトに登録した電子メール アドレスとパスワードを入力して、認証プロセスを実行します。</block>
+  <block id="7687b0a57d5cb728d9fb892dfc814715" category="paragraph">これらのアクションにより、コンソールはライセンスのダウンロード、ソフトウェア アップグレードの検証、将来のサポート登録などに NSS アカウントを使用できるようになります。</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS アカウントは顧客レベルのアカウントである必要があります (ゲスト アカウントや一時アカウントではありません)。顧客レベルの NSS アカウントを複数持つことができます。</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">パートナー レベルのアカウントの場合、NSS アカウントは 1 つだけ存在できます。顧客レベルの NSS アカウントを追加しようとしたときに、パートナー レベルのアカウントが存在する場合は、次のエラー メッセージが表示されます。</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">「異なるタイプの NSS ユーザーがすでに存在するため、このアカウントでは NSS 顧客タイプは許可されません。」</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">既存の顧客レベルの NSS アカウントがあり、パートナー レベルのアカウントを追加しようとする場合も同様です。</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">ログインが成功すると、 NetApp はNSS ユーザー名を保存します。</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">3つの水平の点のアイコン</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">これは、メールにマッピングされるシステム生成の ID です。*NSS管理*ページでは、<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>メニュー。</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">ログイン認証トークンを更新する必要がある場合は、<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>メニュー。</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">このオプションを使用すると、再度ログインするよう求められます。これらのアカウントのトークンは 90 日後に期限切れになることに注意してください。これを知らせる通知が投稿されます。</block>
+  <block id="3bd7f55fd0233105eacd5464f82bb628" category="summary">Google Cloud にコンソール エージェントをインストールすると、 NetApp Consoleは、コンソール エージェントがインストールされている Google アカウントにある Google Cloud バケットに関する情報を自動的に検出できるようになります。この情報を表示できるように、Google Cloud Storage システムがNetApp Consoleに追加されました。</block>
+  <block id="82f74539a8232efa9fe9d44fbb820377" category="doc">Google Cloud Storage バケットを表示する</block>
+  <block id="b732ef530155dfaeda0229e5aa059363" category="paragraph">Google Cloud にコンソール エージェントをインストールすると、 NetApp Consoleは、コンソール エージェントがインストールされている Google アカウントにある Google Cloud Storage バケットに関する情報を自動的に検出できるようになります。この情報を表示できるように、Google Cloud Storage システムがコンソールに追加されました。</block>
+  <block id="985609e7805f0689e27615e3b599c194" category="paragraph">Google Cloud Storage バケットに関する詳細情報（場所、アクセス ステータス、ストレージ クラス、合計容量と使用容量など）を確認できます。これらのバケットは、 NetApp Backup and Recovery、 NetApp Cloud Tiering、またはNetApp Copy and Sync操作の宛先として使用できます。</block>
+  <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link">コンソールエージェントをインストールする</block>
+  <block id="26fd8af3caa4a2081d41f48d8ea6546f" category="list-text"><block ref="97439b1e5c416900c657e46e3f6cda81" category="inline-link-rx"></block>Google Cloud Storage バケットを表示する Google アカウントで。</block>
+  <block id="68ab6a6d7a40667d53edebc13dbf3f3a" category="list-text">NetApp Consoleメニューから、*ストレージ* を選択し、次に *管理* を選択します。</block>
+  <block id="3be94e16cee7c087c2ed64b9fde6725c" category="paragraph">しばらくすると、Google Cloud Storage システムが自動的に表示されます。</block>
+  <block id="1f040b1669214d2ec42a2dc81e1cdbdb" category="inline-image-macro">Google Cloud Storage システムのスクリーンショット。</block>
+  <block id="7fc41af047f19fa6008824c3b962bfde" category="paragraph"><block ref="7fc41af047f19fa6008824c3b962bfde" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0fbcf91b7ce25c3462b5cf49302ab9ad" category="list-text">Google Cloud Storage でNetApp Consoleサービスを有効にする場合は、システムを選択し、右側のペインからアクションを選択します。</block>
+  <block id="a3034411dc5855900610ff3b3e738218" category="inline-link-macro">利用可能なNetApp Consoleサービスを確認し、Google Cloud Storage バケットでそれらを使用する方法を学びます</block>
+  <block id="09d52cc74d65185618e3e7f6cebf9be5" category="paragraph"><block ref="afa4b80f3ed3d6f8dbe02302a1bd61bc" category="inline-link-macro-rx"></block> 。</block>
+  <block id="3baf5b637b04a23193dc298d42f92942" category="list-text">Google アカウントのバケットの詳細を表示するには、[*Enter System*] を選択するか、システムをダブルクリックします。</block>
+  <block id="2a915405a39225912a23c3f3e95eabe5" category="paragraph">デフォルトで表示される列に加えて、ページをスクロールしてバケットの追加プロパティ（ラベルの数や有効になっている暗号化の種類など）を表示できます。</block>
+  <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">次の手順</block>
+  <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link-macro">詳細はこちら</block>
+  <block id="c11d9a1abf7db811d71989ac30c4fd00" category="paragraph">コンソールからバケット設定を直接変更するには、<block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block>バケツ用。<block ref="46472ff1878a0915ac417b4b33b1fe26" category="inline-link-macro-rx"></block> 。</block>
+  <block id="198cca19ca92b085c865c5298e3ad918" category="paragraph">*バケットを追加*をクリックすると、新しいバケットを追加できます。<block ref="d57c52dcffc5f4dd99aa7ac4c9f10f01" category="inline-link-macro-rx"></block> 。</block>
+  <block id="22c483e7262e3a6fa9373468ab803b8b" category="summary">NetApp Consoleで Google Cloud Storage の新機能をご確認ください。</block>
+  <block id="c36f7b01001c9368b68c15b5e6e226da" category="doc">NetApp Consoleの Google Cloud Storage の新機能</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
+  <block id="145634d473d937448dc7bdb5a6797ea7" category="section-title">2023年7月10日</block>
+  <block id="52f479db147f5b791e9e52d65b82e4b9" category="sidebar">NetApp Consoleで Google Cloud Storage の使用を開始します。</block>
+  <block id="b8a01d27e4bfb237e9b96453c804f1f3" category="sidebar">Google Cloud Storage ドキュメント</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">始めましょう</block>
+  <block id="179541d836ec954dce16de1c1b8bcf5d" category="sidebar">Google Cloud Storage バケットを管理する</block>
+  <block id="3d68ddcff8554ec7a179719384e80e1a" category="sidebar">バケットを追加する</block>
+  <block id="9734d11f1da890ec7434857fd054fb47" category="sidebar">バケット設定を変更する</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">詳細情報</block>
+  <block id="61a0700c802690deb5dd6129f47c3282" category="sidebar">NetApp Console外での管理に関する Google Cloud Storage ドキュメント</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">ブログとコミュニティ</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="sidebar">NetApp Console</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetAppコミュニティ</block>
+  <block id="b83e711561263aa7a3404d6bb2624f6e" category="sidebar">Google Cloud Storage ドキュメント</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">リリース ノート</block>
+  <block id="d32273f4c8b837bea371415ed255825c" category="sidebar">新しいバケットを追加する</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
+</blocks>

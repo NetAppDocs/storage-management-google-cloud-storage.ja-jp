@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-change-gcp-bucket-settings.html 
 keywords: google cloud storage buckets, google cloud storage, edit buckets, change buckets 
-summary: 'Google Cloud Storage システムが [システム] ページで利用できる場合は、 NetAppコンソールからバケットの一部のプロパティを直接変更できます。' 
+summary: 'Google Cloud Storage システムが [システム] ページで使用できる場合は、 NetApp Consoleからバケットの一部のプロパティを直接変更できます。' 
 ---
 = Google Cloud Storage バケットの設定を変更する
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'Google Cloud Storage システムが [システム] ページで利用
 
 
 [role="lead"]
-Google Cloud Storage システムが [システム] ページで利用できる場合は、 NetAppコンソールからバケットの一部のプロパティを直接変更できます。
+Google Cloud Storage システムが [システム] ページで使用できる場合は、 NetApp Consoleからバケットの一部のプロパティを直接変更できます。
 
 バケット名、Google プロジェクト、保護設定は変更できないことに注意してください。
 
@@ -25,7 +25,7 @@ Google Cloud Storage システムが [システム] ページで利用できる�
 * ターボ レプリケーション モード - バケットがデュアルリージョンの場所にある場合のみ。
 
 
-これらのバケット設定は、 NetAppコンソールから直接変更することができます。image:button-horizontal-more.gif["3つの点のボタン"]次に、バケットの*バケットの詳細を編集*します。
+これらのバケット設定は、NetApp Consoleから直接変更することができます。image:button-horizontal-more.gif["3つの点のボタン"]次に、バケットの*バケットの詳細を編集*します。
 
 image:screenshot-edit-gcp-bucket.png["バケットのプロパティを編集するために「バケットの詳細の編集」ボタンを選択する方法を示したスクリーンショット。"]
 
